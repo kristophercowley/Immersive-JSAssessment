@@ -1,5 +1,5 @@
 app.controller('MainController', function($scope){
-    $scope.test = "Testing 1,2,3,4";
+    // $scope.test = "Testing 1,2,3,4";
     
     $scope.addNew = function(){
         $scope.films.push({name: $scope.newFilm.name, year: $scope.newFilm.year});
